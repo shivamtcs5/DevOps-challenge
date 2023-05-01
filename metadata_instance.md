@@ -1,4 +1,5 @@
-# To query metadata of an Azure instance and retrieve the information in JSON format, you can use the Azure Instance Metadata Service (IMDS) endpoint. Here's a code snippet to achieve this:
+# To query metadata of an Azure instance and retrieve the information in JSON format.
+# You can use the Azure Instance Metadata Service (IMDS) endpoint. Here's a code snippet to achieve this:
 
 ```python
 import requests
