@@ -51,7 +51,7 @@ resource "azurerm_virtual_machine" "web-vm" {
 }
   
   
-  resource "azurerm_availability_set" "app_availabilty_set" {
+ resource "azurerm_availability_set" "app_availabilty_set" {
   name                = "app_availabilty_set"
   location            = var.location
   resource_group_name = var.resource_group
